@@ -1,4 +1,4 @@
-    phases: 
+   phases: 
     install:
                 commands:
     echo "installing something"
