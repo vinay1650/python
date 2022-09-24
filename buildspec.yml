@@ -1,6 +1,6 @@
    phases: 
     install:
-                commands:
+    commands:
     echo "installing something"
     pre_build:
                 commands: 
@@ -13,4 +13,4 @@
     post_build:
                 commands:
             - echo "we are in the post build phase"
-            
+          addin new files will it work or not lets see
