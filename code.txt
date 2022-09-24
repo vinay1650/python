@@ -1,0 +1,15 @@
+server name launch
+	sudo su					- root access
+    1  yum update -y				- udate the server
+    2  yum install -y httpd.x86_64		- http server install
+    3  systemctl start httpd.service		- start the http
+    4  systemctl enable httpd.service		- enable http 
+    5  curl localhost:80			- local host status
+
+    6  echo hellow  >/var/www/html/index.html
+	echo hellow from $(hostname -f) >/var/www/html/index.html
+ 	hostname -f
+	cat /var/www/html/index.html
+
+
+
