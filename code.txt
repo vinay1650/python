@@ -11,7 +11,7 @@ Apache server activation
 	echo hellow from $(hostname -f) >/var/www/html/index.html
  	hostname -f
 	cat /var/www/html/index.html  
-	
+dsdsadsad
 	
 
 
