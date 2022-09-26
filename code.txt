@@ -12,7 +12,7 @@ Apache server activation
  	hostname -f
 	cat /var/www/html/index.html  
 	
-	
+	bb
 
 
 
