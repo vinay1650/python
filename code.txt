@@ -12,5 +12,5 @@ Apache server activation
  	hostname -f
 	cat /var/www/html/index.htdl  
 a content
-
+new file added --action needed
 
