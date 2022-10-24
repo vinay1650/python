@@ -10,7 +10,15 @@ Apache server activation
     	echo hellow  >/var/www/html/index.html
 	echo hellow from $(hostname -f) >/var/www/html/index.html
  	hostname -f
-	cat /var/www/html/index.htdl  
-a content
+<<<<<<< HEAD
+	cat /var/www/html/index.html
+
+a content it should modified
+=======
+	cat /var/www/html/index.html  
+	
+	bb
+
+>>>>>>> 53e01822fddd8b543b22b245751ddd382c2e6a05
 
 
